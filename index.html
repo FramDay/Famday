@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tải Game FramDay</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Pangolin&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            /* Nền phong cách đồng quê: trời xanh và cỏ xanh */
+            background: linear-gradient(to bottom, #87CEEB 0%, #87CEEB 50%, #7cfc00 50%, #228B22 100%);
+            font-family: 'Pangolin', cursive;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            margin-top: 50px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 30px;
+            border: 8px solid #8B4513; /* Viền màu gỗ */
+            box-shadow: 0 10px 0 #5D2E0A;
+            max-width: 900px;
+        }
+
+        .game-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        /* Icon game rộng 300px theo yêu cầu */
+        .game-icon {
+            width: 100%;
+            max-width: 300px; /* Rộng 300 */
+            height: auto;
+            aspect-ratio: 1/1; /* Đảm bảo hình vuông 300x300 */
+            object-fit: contain;
+            border-radius: 50px;
+            filter: drop-shadow(0 10px 15px rgba(0,0,0,0.3));
+        }
+
+        .game-title {
+            font-family: 'Comfortaa', cursive;
+            font-size: 80px; /* Chữ to đẹp */
+            color: #d35400; /* Màu cam đất */
+            margin: 20px 0;
+            text-shadow: 4px 4px 0px #fff;
+            letter-spacing: 2px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 25px 60px;
+            background: #ffcc00;
+            color: #5D2E0A;
+            font-size: 32px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            border: 5px solid #8B4513;
+            transition: all 0.2s;
+            box-shadow: 0 8px 0 #b38600;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-5px);
+            background: #ffe066;
+            box-shadow: 0 12px 0 #b38600;
+        }
+
+        .download-btn:active {
+            transform: translateY(3px);
+            box-shadow: 0 2px 0 #b38600;
+        }
+
+        p {
+            font-size: 20px;
+            color: #5D2E0A;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="game-header">
+            <img src="578.png" alt="FramDay Icon" class="game-icon">
+            <h1 class="game-title">FramDay</h1>
+        </div>
+
+        <p>Chào mừng bạn đến với nông trại vui vẻ!</p>
+
+        <a href="https://drive.google.com/uc?export=download&id=1L30b_fHRE1SQwHdy4O5PBsGAEOYuZ9Z9" class="download-btn">
+            TẢI GAME NGAY
+        </a>
+
+        <p>Phiên bản mới nhất - Miễn phí hoàn toàn</p>
+    </div>
+
+</body>
+</html>
